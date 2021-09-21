@@ -9,9 +9,8 @@ elsif num % 5 == 0
 else
   puts num
 end
+ return num
 end
 (1..num_max).each do |num|
   fizzbuzz(num)
 end
-
-
