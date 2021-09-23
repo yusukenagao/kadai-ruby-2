@@ -1,13 +1,13 @@
 num_max = 100
 def fizzbuzz(num)
 if num % 15 == 0
-  print 'FizzBuzz'
+  'FizzBuzz'
 elsif num % 3 == 0
-  print 'Fizz'
+  'Fizz'
 elsif num % 5 == 0
-  print 'Buzz'
+  'Buzz'
 else
-  print num
+  num
 end
 end
 (1..num_max).each do |num|
